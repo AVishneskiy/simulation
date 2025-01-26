@@ -1,11 +1,10 @@
-package ru;
+package ru.entity;
 
 public class Grass extends Entity {
-    private final String icon = "\uD83C\uDF31";
     private final boolean isEatable = true;
 
-    public String getIcon() {
-        return icon;
+    public Grass() {
+        super("\uD83C\uDF31");
     }
 
     public boolean isEatable() {

@@ -1,4 +1,4 @@
-package ru;
+package ru.entity;
 
 public class Predator extends Creature {
     private int powerOfAttack;

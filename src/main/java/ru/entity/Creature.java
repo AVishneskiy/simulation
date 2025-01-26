@@ -1,18 +1,13 @@
-package ru;
+package ru.entity;
 
 public abstract class Creature extends Entity {
     private int speed;
     private int healthPoint;
-    private String icon;
 
     public Creature(String icon) {
-        this.icon = icon;
+        super(icon);
     }
 
     public void makeMove() {
-    }
-
-    public String getIcon() {
-        return icon;
     }
 }

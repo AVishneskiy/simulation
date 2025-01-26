@@ -1,5 +1,8 @@
 package ru;
 
+import ru.entity.Creature;
+import ru.entity.Herbivore;
+
 import java.util.HashMap;
 
 public class Map {
